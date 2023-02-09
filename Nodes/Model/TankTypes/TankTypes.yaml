@@ -1,0 +1,68 @@
+Name: TankTypes
+Type: FolderType
+Children:
+- Name: WaterTankType
+  Id: g=073029d1083be5b348a3ae3246c7a297
+  Supertype: BaseObjectType
+  Children:
+  - Name: TankName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: ValveInStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ValveOutStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: LevelPercentage
+    Type: AnalogItemType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 100.0
+      - Name: Constrain
+        Type: BaseVariableType
+        DataType: Boolean
+        ReferenceType: HasProperty
+        ModellingRule: Optional
+        Value: true
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+      Children:
+      - Name: UnitId
+        Type: BaseVariableType
+        DataType: Int32
+        ReferenceType: HasProperty
+        Value: -1
+      - Name: DisplayName
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Description
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: WaterTank
+  Id: g=b29798c3c67a3131ef53856cc9055f60
+  Supertype: BaseObjectType

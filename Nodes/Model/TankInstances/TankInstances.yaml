@@ -1,0 +1,566 @@
+Name: TankInstances
+Type: FolderType
+Children:
+- Name: WaterTank1
+  Id: g=1a6f0f7c7ba5f71812b3cb5a8ad38b86
+  Type: WaterTankType
+  Children:
+  - Name: TankName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Water Tank 01"
+  - Name: ValveInStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: ValveOutStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: LevelPercentage
+    Id: g=4bac62c6959490514c4ae22c255f8c69
+    Type: AnalogItemType
+    DataType: Float
+    Value: 10.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 100.0
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+      Children:
+      - Name: UnitId
+        Type: BaseVariableType
+        DataType: Int32
+        ReferenceType: HasProperty
+        Value: -1
+      - Name: DisplayName
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Description
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: WaterTank2
+  Id: g=413118447c361bf1519a5694fe2828f4
+  Type: WaterTankType
+  Children:
+  - Name: TankName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Water Tank 02"
+  - Name: ValveInStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: ValveOutStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: LevelPercentage
+    Type: AnalogItemType
+    DataType: Float
+    Value: 20.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 100.0
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+      Children:
+      - Name: UnitId
+        Type: BaseVariableType
+        DataType: Int32
+        ReferenceType: HasProperty
+        Value: -1
+      - Name: DisplayName
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Description
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: WaterTank3
+  Id: g=3ce61be03012816c3b315e75adc88875
+  Type: WaterTankType
+  Children:
+  - Name: TankName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Water Tank 03"
+  - Name: ValveInStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: ValveOutStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: LevelPercentage
+    Type: AnalogItemType
+    DataType: Float
+    Value: 30.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 100.0
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+      Children:
+      - Name: UnitId
+        Type: BaseVariableType
+        DataType: Int32
+        ReferenceType: HasProperty
+        Value: -1
+      - Name: DisplayName
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Description
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: WaterTank4
+  Id: g=d618d34095bb606ceb0af6dedc2d9988
+  Type: WaterTankType
+  Children:
+  - Name: TankName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Water Tank 04"
+  - Name: ValveInStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: ValveOutStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: LevelPercentage
+    Type: AnalogItemType
+    DataType: Float
+    Value: 40.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 100.0
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+      Children:
+      - Name: UnitId
+        Type: BaseVariableType
+        DataType: Int32
+        ReferenceType: HasProperty
+        Value: -1
+      - Name: DisplayName
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Description
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: WaterTank5
+  Id: g=029293f3de20e25fa7a806c7174ca2d0
+  Type: WaterTankType
+  Children:
+  - Name: TankName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Water Tank 05"
+  - Name: ValveInStatus
+    Id: g=ead9c45382533732175f4bce42034780
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: ValveOutStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: LevelPercentage
+    Type: AnalogItemType
+    DataType: Float
+    Value: 50.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 100.0
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+      Children:
+      - Name: UnitId
+        Type: BaseVariableType
+        DataType: Int32
+        ReferenceType: HasProperty
+        Value: -1
+      - Name: DisplayName
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Description
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: WaterTank6
+  Id: g=e7f3b99091a480b6c8e3565ce0de67eb
+  Type: WaterTankType
+  Children:
+  - Name: TankName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Water Tank 06"
+  - Name: ValveInStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ValveOutStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: LevelPercentage
+    Type: AnalogItemType
+    DataType: Float
+    Value: 60.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 100.0
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+      Children:
+      - Name: UnitId
+        Type: BaseVariableType
+        DataType: Int32
+        ReferenceType: HasProperty
+        Value: -1
+      - Name: DisplayName
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Description
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: WaterTank7
+  Id: g=6d82aa028e7e87bfc00e15e85997e200
+  Type: WaterTankType
+  Children:
+  - Name: TankName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Water Tank 07"
+  - Name: ValveInStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ValveOutStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: LevelPercentage
+    Type: AnalogItemType
+    DataType: Float
+    Value: 70.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 100.0
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+      Children:
+      - Name: UnitId
+        Type: BaseVariableType
+        DataType: Int32
+        ReferenceType: HasProperty
+        Value: -1
+      - Name: DisplayName
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Description
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: WaterTank8
+  Id: g=1fe15ae1064364a4d7c919f0e719d494
+  Type: WaterTankType
+  Children:
+  - Name: TankName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Water Tank 08"
+  - Name: ValveInStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ValveOutStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: LevelPercentage
+    Type: AnalogItemType
+    DataType: Float
+    Value: 80.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 100.0
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+      Children:
+      - Name: UnitId
+        Type: BaseVariableType
+        DataType: Int32
+        ReferenceType: HasProperty
+        Value: -1
+      - Name: DisplayName
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Description
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: WaterTank9
+  Id: g=f6d520016cd186c1cba5556078cf6635
+  Type: WaterTankType
+  Children:
+  - Name: TankName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Water Tank 09"
+  - Name: ValveInStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ValveOutStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: LevelPercentage
+    Id: g=2fec393aa70dd90b877657c1d6f4e525
+    Type: AnalogItemType
+    DataType: Float
+    Value: 90.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 100.0
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+      Children:
+      - Name: UnitId
+        Type: BaseVariableType
+        DataType: Int32
+        ReferenceType: HasProperty
+        Value: -1
+      - Name: DisplayName
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Description
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+- Name: WaterTank10
+  Id: g=9eecf1eefa78d6a5dc74ce9f433aff32
+  Type: WaterTankType
+  Children:
+  - Name: TankName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Water Tank 10"
+  - Name: ValveInStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: ValveOutStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: LevelPercentage
+    Type: AnalogItemType
+    DataType: Float
+    Value: 100.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 100.0
+    - Name: EngineeringUnits
+      Type: EUInformationType
+      DataType: EUInformation
+      Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
+      Children:
+      - Name: UnitId
+        Type: BaseVariableType
+        DataType: Int32
+        ReferenceType: HasProperty
+        Value: -1
+      - Name: DisplayName
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Description
+        Type: BaseVariableType
+        DataType: LocalizedText
+        ReferenceType: HasProperty
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
